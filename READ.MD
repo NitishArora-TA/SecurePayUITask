@@ -1,4 +1,4 @@
-This is BDD Framework. We have scenarios under src/test/features/HomeLoanBorrower.feature file
+This is BDD Framework. We have scenarios under src/test/features/SecurePay.feature file
 the file is written in GIVEN WHEN THEN 
 It has stepdefinations file
 This Project contains helpers method, runner class

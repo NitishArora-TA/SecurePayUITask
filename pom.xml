@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com</groupId>
-	<artifactId>Home.Loan.Borrower.Calculator</artifactId>
+	<artifactId>SecurePay</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Home.Loan.Borrower.Calculator</name>
+	<name>SecurePay</name>
 	<url>http://maven.apache.org</url>
 
 
@@ -81,7 +81,7 @@
 							<goal>generate</goal>
 						</goals>
 						<configuration>
-							<projectName>Home.Loan.Borrower.Calculator</projectName>  <!-- Replace with project name -->
+							<projectName>SecurePay</projectName>  <!-- Replace with project name -->
 							<outputDirectory>target/cucumber-reports/advanced-reports</outputDirectory>
 							<cucumberOutput>target/cucumber-reports/CucumberTestReport.json</cucumberOutput>
 							<buildNumber>1</buildNumber>

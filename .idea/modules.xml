@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LoanBorrowerCalculator.iml" filepath="$PROJECT_DIR$/LoanBorrowerCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SecurePay.iml" filepath="$PROJECT_DIR$/SecurePay.iml" />
     </modules>
   </component>
 </project>

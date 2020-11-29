@@ -7,7 +7,7 @@ package au.com.automation.helper;
  */
 public class Constants {
 
-	public static final String mainUrl="https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/";
+	public static final String mainUrl="https://www.google.com.au";
 	public final static long explicitWait = 100;
 	public final static long impliciteWait = 100;
 }
