@@ -8,7 +8,8 @@ import org.openqa.selenium.WebElement;
 public class securePayObjects {
     private static WebElement element = null;
     WaitHelper waitHelper;
-
+    public static By clickContactUs = By.xpath("//*[@id='icon-chevron-right' and span='Contact us']");
+    public static By firstName = By.xpath("//input[@name='firstName']");
     public static WebElement searchBar(WebDriver driver) {
         element = driver.findElement(By.xpath("//input[@type='text']"));
         return element;
@@ -18,11 +19,11 @@ public class securePayObjects {
         return element;
     }
     public static WebElement clickContactUs(WebDriver driver) {
-        element = driver.findElement(By.xpath("//*[@id='icon-chevron-right' and span='Contact us']"));
+        element = driver.findElement(clickContactUs);
         return element;
     }
     public static WebElement firstName(WebDriver driver) {
-        element = driver.findElement(By.xpath("//input[@name='firstName']"));
+        element = driver.findElement(firstName);
         return element;
     }
     public static WebElement lastName(WebDriver driver) {

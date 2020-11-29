@@ -17,7 +17,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-public class securePayPage {
+public class securePayPage extends TestBase {
     private WebDriver driver;
     WaitHelper waitHelper;
 
@@ -41,21 +41,23 @@ public class securePayPage {
     }
 
     public void clickOnContactUsBtn(){
-        waitForPageLoad();
+
         scrollToPageEnd();
+        WaitForElement(securePayObjects.clickContactUs,5);
         securePayObjects.clickContactUs(driver).click();
     }
 
 
     public void fillFormDetails(){
-        String firstName = getRandomInteger(8);
-        String lastName = getRandomInteger(6);
+        String firstName = getRandomString(8);
+        String lastName = getRandomString(6);
         String email = firstName + "." + lastName + "@1secmail.com";
         String phone = getRandomInteger(10);
         String company = getRandomString(10);
         String website = "www." +company+ ".com.au";
         String message = getRandomString(25);
 
+        WaitForElement(securePayObjects.firstName,5);
         securePayObjects.firstName(driver).sendKeys(firstName);
         securePayObjects.lastName(driver).sendKeys(lastName);
         securePayObjects.email(driver).sendKeys(email);
@@ -69,13 +71,14 @@ public class securePayPage {
 
     public void waitForPageLoad(){
         ExpectedCondition<Boolean> pageLoadCondition = new ExpectedCondition<Boolean>() {
-          public Boolean apply(WebDriver driverPage){
-              return ((JavascriptExecutor)driverPage).executeScript("return document.readyState", new Object[0].equals("complete");
-          }
+            public Boolean apply(WebDriver driverPage){
+                return (Boolean) ((JavascriptExecutor)driverPage).executeScript("return document.readyState", new Object[0].equals("complete"));
+            }
         };
         WebDriverWait wait = new WebDriverWait(driver,60L);
         wait.until(pageLoadCondition);
     }
+
     public String getRandomString(int count){
         boolean randomStringGenerated = false;
         String generatedString;
@@ -103,8 +106,10 @@ public class securePayPage {
 
     public void scrollToPageEnd()
     {
-        Actions builder = new Actions(driver);
-        builder.sendKeys(new CharSequence[]{Keys.END}).perform();
+//        Actions builder = new Actions(driver);
+//        builder.sendKeys(new CharSequence[]{Keys.END}).perform();
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0,1000)");
 
     }
     public void enterKeyboardFunction(){

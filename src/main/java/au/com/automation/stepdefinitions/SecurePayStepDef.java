@@ -31,7 +31,7 @@ public class SecurePayStepDef extends TestBase {
     }
 
     @Then("^User should navigate to Application and click on Contact Us Button$")
-    public void clickOnContactUsBttn(String estimatedAmount) throws Throwable {
+    public void clickOnContactUsBttn() throws Throwable {
 
         securePay.clickOnContactUsBtn();
     }

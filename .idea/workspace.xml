@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
@@ -23,20 +13,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f70f871-aecb-421e-b2ac-a8e6e1fc96f3" name="Default Changelist" comment="add">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="7f70f871-aecb-421e-b2ac-a8e6e1fc96f3" name="Default Changelist" comment="adding changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoanBorrowerCalculator.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/READ.MD" beforeDir="false" afterPath="$PROJECT_DIR$/READ.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/automation/helper/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/au/com/automation/helper/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/automation/pageObjects/homeLoanPageObjects.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/automation/pages/loanBorrowingCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/automation/stepdefinitions/LoanBorrowingCalculatorStepDef.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Loan/LoanBorrowingCalculator.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/automation/pageObjects/securePayObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/au/com/automation/pageObjects/securePayObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/automation/pages/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/au/com/automation/pages/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/automation/pages/securePayPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/au/com/automation/pages/securePayPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/automation/stepdefinitions/SecurePayStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/au/com/automation/stepdefinitions/SecurePayStepDef.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605851626038</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding changes">
+      <created>1606625597121</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606625597121</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,7 +116,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="adding changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="441" y="246" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605678969346">
@@ -142,10 +132,10 @@
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="0" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.828@0.23.1440.828" timestamp="1605678429138" />
-    <state x="534" y="345" width="415" height="192" key="Github.ShareDialog" timestamp="1606624117856">
+    <state x="534" y="345" width="415" height="192" key="Github.ShareDialog" timestamp="1606625749935">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="534" y="345" width="415" height="192" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1606624117856" />
+    <state x="534" y="345" width="415" height="192" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1606625749935" />
     <state x="534" y="341" key="Github.ShareDialog/0.23.1440.828@0.23.1440.828" timestamp="1605854807367" />
     <state x="534" y="341" key="Github.ShareDialog/0.23.1440.829@0.23.1440.829" timestamp="1606457761233" />
     <state x="359" y="142" key="Github.UntrackedFilesDialog" timestamp="1605854607197">
@@ -160,9 +150,10 @@
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="120" y="143" width="1200" height="588" key="VCS.FileHistoryDialog/0.23.1440.828@0.23.1440.828" timestamp="1605853837633" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1606457670756">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2" timestamp="1606625630120">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606625630120" />
     <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1605853504215" />
     <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1606457670756" />
     <state x="533" y="358" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606457696704">
@@ -173,10 +164,10 @@
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="427" y="69" width="586" height="735" key="find.popup/0.23.1440.829@0.23.1440.829" timestamp="1606457149465" />
-    <state x="432" y="326" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1606624092033">
+    <state x="432" y="326" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1606625892099">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="432" y="326" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1440.900@0.0.1440.900" timestamp="1606624092033" />
+    <state x="432" y="326" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1440.900@0.0.1440.900" timestamp="1606625892099" />
     <state x="432" y="323" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.828@0.23.1440.828" timestamp="1605854660102" />
     <state x="432" y="323" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.829@0.23.1440.829" timestamp="1606457711451" />
   </component>
